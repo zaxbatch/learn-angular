@@ -1,0 +1,15 @@
+<nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link active" href="#">{{ title }}</a>
+  <a *ngFor="let menu of menus" class="flex-sm-fill text-sm-center nav-link active" href={{menu.name.toLowerCase()}}>{{ menu.name }}</a>
+  <!--a class="flex-sm-fill text-sm-center nav-link" href="#">{{ menu.name }}</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+  <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a -->
+
+ <!-- nul class="nav nav-pills flex-column flex-sm-row">
+  <li *ngFor="let menu of menus">{{ menu.name }}
+    
+  </li>
+</ul -->
+</nav>
+
+<router-outlet></router-outlet>

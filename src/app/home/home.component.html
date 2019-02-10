@@ -1,0 +1,18 @@
+<app-header></app-header>
+<div class="title" style="text-align:center">
+  <h1>
+    Learn Angular With Easy Examples
+  </h1>
+  
+</div>
+
+<div class="container text-center image">  
+  <img src="../assets/img/nerd.png" alt="nerd">
+</div>
+
+<div class="categories">
+ 
+  	<a *ngFor="let menu of menus" href={{menu.name.toLowerCase()}}> <div  class="category">{{ menu.name }}</div></a>
+  
+
+</div>

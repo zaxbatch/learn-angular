@@ -1,0 +1,33 @@
+.image {
+	margin-top: 2rem;
+}
+
+.category {
+	
+	width: 20rem;
+	height: 20rem;
+	border: 2.5px solid orange;
+	border-radius: 5px;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	align-self: flex-end;
+	background-color: yellow;
+	
+
+
+}
+
+.category:hover {
+	background-color: red;
+}
+
+.categories {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 2rem 2rem 2rem 2rem;
+	justify-content: center;
+	align-items: center;
+	
+}
