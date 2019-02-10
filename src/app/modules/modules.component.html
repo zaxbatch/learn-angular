@@ -1,5 +1,48 @@
 <app-header></app-header>
 
-<p>
-  modules works!
-</p>
+<div class="text-center title">
+	<h1>{{ title }} </h1>
+</div>
+
+<div class="container">
+	<div class=" content">
+		<div class="content-pic">
+			<img src="../assets/img/nerd02.png" alt="nerd" class="content-pic2">
+		</div>
+	<div class="card" style="width: 45rem; margin-left: 6rem;">
+	  <div class="card-header list-title">
+	    <strong>Key Points</strong>
+	  </div>
+	  <ul class="list-group list-group-flush list">
+	    <li class="list-group-item list-odd">NgModules: drfined with @NgModule()</li>
+	    <li class="list-group-item list-even">Differ but compliment ES2015 Modules</li>
+	    <li class="list-group-item list-odd">Associate components with related code i.e. Services</li>
+	    <li class="list-group-item list-even">AppModule: root module. Bootstrap mechanism that launches the application</li>
+	    <li class="list-group-item list-odd">Typical applications have many AppModules</li>
+	  </ul>
+	</div>
+	
+
+</div>
+<br>
+<br>
+<hr>
+
+
+<div class="container meta">
+	<div class="title text-center">
+		<h2>Metadata</h2>
+	</div>
+	<div class="tabs">
+		<nav>
+			<div class="nav nav-tabs" id="nav-tab" role="tablist">
+			<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Overview</a>
+			<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Sample Code</a>
+
+			</div>
+		</nav>
+	<div class="tab-content" id="nav-tabContent">
+  		<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Overview</div>
+  		<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Sample Code</div>
+	</div>
+</div>
