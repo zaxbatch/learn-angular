@@ -39,3 +39,7 @@ hr {
 .list-even {
 	background-color: lightgrey;
 }
+
+.meta {
+	margin-bottom: 4rem;
+}

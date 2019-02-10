@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modules.component.css']
 })
 export class ModulesComponent implements OnInit {
-	const title = 'Modules';
+	title = 'Modules';
 
   constructor() { }
 
