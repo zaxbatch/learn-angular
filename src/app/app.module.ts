@@ -8,10 +8,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ComponentsComponent } from './components/components.component';
+import { TemplatingComponent } from './templating/templating.component';
+import { ModulesComponent } from './modules/modules.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 const appRoutes: Routes = [
   {  path: '',      component: HomeComponent },
-  {  path: 'components',      component: ComponentsComponent }
+  {  path: 'components',      component: ComponentsComponent },
+  {  path: 'templating',      component: TemplatingComponent },
+  {  path: 'modules',      component: ModulesComponent },
+  {  path: 'data-binding',      component: DataBindingComponent },
 
 ];
 
@@ -21,7 +27,10 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    TemplatingComponent,
+    ModulesComponent,
+    DataBindingComponent
   ],
   imports: [
     RouterModule.forRoot(
