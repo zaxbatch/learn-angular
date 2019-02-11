@@ -1,0 +1,50 @@
+.title {
+	margin-top: 2.5rem;
+	text-align: center;
+}
+
+
+.content {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+
+}
+
+.content-pic {
+	margin-bottom: 2rem;
+}
+
+.content-pic2 {
+	
+	width: 15rem;
+}
+
+.list {
+	
+	border: 2px solid yellow;
+
+
+}
+
+.list-title {
+	background-color: yellow;
+	text-align: center;
+}
+
+hr {
+	color: blue;
+	border: 5px solid blue;
+	border-radius: 5px;
+}
+
+.list-even {
+	background-color: lightgrey;
+}
+
+.meta {
+	margin-bottom: 4rem;
+}
